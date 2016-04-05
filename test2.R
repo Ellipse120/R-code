@@ -9,3 +9,11 @@ summary(cars) #cars's summary
 head(class) #equal cars[1:6,]
 tail(class) 
 str(cars)
+data(cars)
+dim(cars)
+row.names(cars)
+attributes(cars)
+(cars)
+class(dist~speed)
+plot(dist~speed,cars) #two variables' 
+plot(cars$speed,cars$dist)
