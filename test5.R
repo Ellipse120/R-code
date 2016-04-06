@@ -40,3 +40,26 @@ v=read.csv("f:/adf/test.csv")
 str(v)
 data=read.table("clipboard")
 
+#序列
+(z1=seq(-1,10,length=100)) #-1到10等间隔的100个数序列
+z1=seq(-1,10,length=100)
+(z1=seq(10,-1,-0.1))
+(z1=seq(10,-1,-.1))
+(xx=rep(1:3,3)) #三次重复123
+(x=rep(3:5,1:3))
+(x4=rep(c(1,10),c(4,5)))
+w=c(1,3,xx,z1) #w[3]把数据组合为一个向量
+# b=rep(0,10);c=1:3;b+c
+b*c
+rev(b) #颠倒词序
+z2=c("no cat","has","nine","tails") #字符向量
+z2[1]=="no cat"
+z3=1:5
+z3[7]=8;z3
+z3=NULL
+z3[c(1,3,5)]=1:3
+z3
+rnorm(10)
+z3[-c(1,3)]
+z4=sample(1:100,10);z
+which(z4==max(z4)) #最大值下标
